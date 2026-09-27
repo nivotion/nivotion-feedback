@@ -1,0 +1,31 @@
+{
+  "title": "[General feedback] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Do not upload private or sensitive CSV contents. If data is needed, create a tiny synthetic CSV that reproduces the issue. Redact names, emails, customer data, local paths, tokens and private business data from screenshots, logs and attachments.\n\nSecurity vulnerabilities belong in the product repository's private vulnerability reporting mechanism, never in public Issues or Discussions. If the private route is unavailable, wait until it is enabled; do not post the details publicly.\n\nIdeas are welcome, not roadmap commitments."
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "conversation",
+      "attributes": {
+        "label": "What would you like to share?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "version",
+      "attributes": {
+        "label": "Version, if relevant"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# This is a documentation/media repository. Ship application ZIPs via Releases.
+*.zip
+*.exe
+*.dll
+*.pyd
+*.py
+*.pyc
+__pycache__/
+.env
+.env.*
+/internal/
+/release_assets/
+/audit/
+/checkpoints/
+Thumbs.db
+.DS_Store

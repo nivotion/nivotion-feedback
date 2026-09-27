@@ -1,0 +1,15 @@
+{
+  "blank_issues_enabled": false,
+  "contact_links": [
+    {
+      "name": "Questions and general feedback",
+      "url": "https://github.com/nivotion/nivotion-feedback/discussions",
+      "about": "Public discussion; no sensitive CSVs or vulnerability details."
+    },
+    {
+      "name": "Private security report",
+      "url": "https://github.com/nivotion/nivotion/security/advisories/new",
+      "about": "Security vulnerabilities must remain private."
+    }
+  ]
+}

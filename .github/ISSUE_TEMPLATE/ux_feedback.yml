@@ -1,0 +1,53 @@
+{
+  "name": "UX feedback",
+  "description": "Tell us where the interface felt confusing.",
+  "title": "[UX feedback]: ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Do not upload private or sensitive CSV contents. If data is needed, create a tiny synthetic CSV that reproduces the issue. Redact names, emails, customer data, local paths, tokens and private business data from screenshots, logs and attachments.\n\nSecurity vulnerabilities belong in the product repository's private vulnerability reporting mechanism, never in public Issues or Discussions. If the private route is unavailable, wait until it is enabled; do not post the details publicly.\n\nIdeas are welcome, not roadmap commitments."
+      }
+    },
+    {
+      "type": "input",
+      "id": "area",
+      "attributes": {
+        "label": "Area or screen"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "confusion",
+      "attributes": {
+        "label": "What was confusing?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "expected",
+      "attributes": {
+        "label": "What did you expect?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "suggestion",
+      "attributes": {
+        "label": "Proposed improvement, if any"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

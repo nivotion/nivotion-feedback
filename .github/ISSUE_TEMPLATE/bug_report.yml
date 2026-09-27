@@ -1,0 +1,119 @@
+{
+  "name": "Bug report",
+  "description": "Help reproduce a problem in the Experimental Preview.",
+  "title": "[Bug report]: ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Do not upload private or sensitive CSV contents. If data is needed, create a tiny synthetic CSV that reproduces the issue. Redact names, emails, customer data, local paths, tokens and private business data from screenshots, logs and attachments.\n\nSecurity vulnerabilities belong in the product repository's private vulnerability reporting mechanism, never in public Issues or Discussions. If the private route is unavailable, wait until it is enabled; do not post the details publicly.\n\nIdeas are welcome, not roadmap commitments."
+      }
+    },
+    {
+      "type": "input",
+      "id": "version",
+      "attributes": {
+        "label": "NIVOTION version and build",
+        "description": "Copy from Settings."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "windows",
+      "attributes": {
+        "label": "Windows version and architecture"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "workflow",
+      "attributes": {
+        "label": "Workflow",
+        "options": [
+          "Single CSV",
+          "Combine CSV",
+          "UI",
+          "Startup",
+          "Other"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "steps",
+      "attributes": {
+        "label": "Steps to reproduce"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "expected",
+      "attributes": {
+        "label": "Expected result"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "actual",
+      "attributes": {
+        "label": "Actual result or error code"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "repeats",
+      "attributes": {
+        "label": "Does it repeat?",
+        "options": [
+          "Every time",
+          "Sometimes",
+          "Only once",
+          "Not sure"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "screenshot",
+      "attributes": {
+        "label": "Optional safe screenshot",
+        "description": "Redact names, emails, customer data, local paths, tokens and private business data."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "synthetic",
+      "attributes": {
+        "label": "Optional tiny synthetic fixture",
+        "description": "Use invented, non-sensitive CSV content only. Do not attach your actual sensitive CSV."
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}
